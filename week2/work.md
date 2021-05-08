@@ -8,6 +8,6 @@ if err != nil {
 	if err == sql.ErrNoRows {
 		return nil,fmt.Errorf("sql %s id:%d is empty: %w", name,id, err)
     }
-    //do ....
+    //do .... 
 }
 ```
